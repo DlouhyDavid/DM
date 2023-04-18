@@ -1,0 +1,1 @@
+Do této složky je nutné dodat data pro tento projekt.
