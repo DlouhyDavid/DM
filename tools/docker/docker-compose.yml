@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  nginx:
+      image: rocker/shiny:4.3.0
+      ports:
+        - "3838:3838"
+      user: shiny
+      volumes:
+        - "./:/var/www/Aplikace-KLUB"
+      restart: always
