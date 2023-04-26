@@ -10,8 +10,8 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - uses: webfactory/ssh-agent@v0.7.0
-              with:
-                  ssh-private-key: ${{ secrets.SSH_KEY_HORUS }}
+        with:
+          ssh-private-key: ${{ secrets.SSH_KEY_HORUS }}
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
