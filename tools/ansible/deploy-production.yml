@@ -9,7 +9,7 @@
     community.docker.docker_compose:
       project_src: /srv/production/dm/tools/docker
       state: absent
-      #env_file: /srv/production/dm/tools/environments/production.env
+      env_file: /srv/production/dm/tools/environments/production.env
     ignore_errors: yes
 
   - name: Deploy code
