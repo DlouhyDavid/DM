@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy-production:
-    runs-on: rockylinux:9.1-minimal
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
