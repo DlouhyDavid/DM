@@ -16,9 +16,15 @@
       repo: 'git@github.com:DlouhyDavid/DM.git'
       dest: /srv/production/dm
       version: "{{ GIT_BRANCH }}"
+  
+  - name: Copy env
+    command: "{{item}}"
+    with_items:
+      - cp "/srv/env/dm/production.env" "/srv/production/dm/tools/environments/production.env"
 
   - name: Start service
     community.docker.docker_compose:
       project_name: dm_production
       project_src: /srv/production/dm/tools/docker
       build: yes
+    env_file: /srv/production/dm/tools/environments/production.env
