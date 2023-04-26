@@ -1,0 +1,21 @@
+name: DM
+run-name: ${{ github.actor }} is deploying production of DM
+on:
+  push:
+
+jobs:
+  deploy-production:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - uses: webfactory/ssh-agent@v0.7.0
+              with:
+                  ssh-private-key: ${{ secrets.SSH_KEY_HORUS }}
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - name: Prepare SSH connection
+        run: |
+          ssh-keyscan -H 46.36.40.226 >> ~/.ssh/known_hosts
+          ssh david@46.36.40.226 hostname
