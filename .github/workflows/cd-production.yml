@@ -12,6 +12,8 @@ jobs:
       - uses: webfactory/ssh-agent@v0.7.0
         with:
           ssh-private-key: ${{ secrets.SSH_KEY_HORUS }}
+      - name: Install Ansible
+        run: python3 -m pip install --user ansible
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
@@ -19,3 +21,6 @@ jobs:
         run: |
           ssh-keyscan -H 46.36.40.226 >> ~/.ssh/known_hosts
           ssh david@46.36.40.226 hostname
+      - name: Deploy via playbook
+        run: |
+          ansible-playbook -e "GIT_BRANCH=${GITHUB_REF_NAME}" -i tools/ansible/inventory.yml tools/ansible/deploy-production.yml

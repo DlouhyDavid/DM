@@ -1,0 +1,24 @@
+---
+- name: Deploy production version
+  hosts: production_servers
+  remote_user: david
+
+  tasks:
+
+  #- name: Stop service
+  #  community.docker.docker_compose:
+  #    project_src: /srv/production/dm/tools/docker
+  #    state: absent
+  #  ignore_errors: yes
+
+  - name: Deploy code
+    ansible.builtin.git:
+      repo: 'git@github.com:DlouhyDavid/DM.git'
+      dest: /srv/production/dm
+      version: "{{ GIT_BRANCH }}"
+
+  #- name: Start service
+  #  community.docker.docker_compose:
+  #    project_name: dm_production
+  #    project_src: /srv/production/dm/tools/docker
+  #    build: yes

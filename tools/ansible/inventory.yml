@@ -1,0 +1,5 @@
+all:
+  children:
+    production_servers:
+      hosts:
+        46.36.40.226:22
