@@ -6,5 +6,5 @@ services:
         - "3838:3838"
       user: shiny
       volumes:
-        - "./:/var/www/Aplikace-KLUB"
+        - "./:/srv/dm"
       restart: always
