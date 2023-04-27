@@ -1,11 +1,11 @@
 version: "3.9"
 services:
   shiny:
-      image: rocker/shiny:4.3.0
+      image: rocker/tidyverse:4.1.3
       ports:
         - "${DM_PORT}:3838"
       user: shiny
       volumes:
-        - "${DM_LOCATION}/docker/shiny-server.conf:/etc/shiny-server/shiny-server.conf"
         - "${DM_LOCATION}:/srv/dm"
       restart: always
+      command: R -e 'shiny::runApp("/srv/dm/web.R", port = 3838, host = "0.0.0.0")'
