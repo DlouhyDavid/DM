@@ -7,4 +7,4 @@ services:
       volumes:
         - "${DM_LOCATION}:/srv/dm"
       restart: always
-      command: R -e 'shiny::runApp("/srv/dm/web.R", port = 3838, host = "0.0.0.0")'
+      entrypoint: ["/bin/bash", "/srv/dm/tools/docker/startup.sh"]
