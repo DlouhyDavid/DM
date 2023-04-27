@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   server:
-      image: rocker/tidyverse:4.1.3
+      image: rocker/shiny:4.3.0
       ports:
         - "${DM_PORT}:3838"
       volumes:
