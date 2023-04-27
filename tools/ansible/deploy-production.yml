@@ -27,5 +27,4 @@
     community.docker.docker_compose:
       project_name: dm_production
       project_src: /srv/production/dm/tools/docker
-      build: yes
       env_file: /srv/production/dm/tools/environments/production.env
