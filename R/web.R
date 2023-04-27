@@ -6,6 +6,7 @@ ui <- fluidPage(
   numericInput("num1", "První číslo:", value = 0),
   numericInput("num2", "Druhé číslo:", value = 0),
   actionButton("sum", "Sečíst"),
+  actionButton("minus", "Odečíst"),
   textOutput("result")
 )
 
@@ -16,7 +17,11 @@ server <- function(input, output) {
     result <- input$num1 + input$num2
     output$result <- renderText(paste("Výsledek je:", result))
   })
-  
+  # reakce na tlačítko
+  observeEvent(input$minus, {
+    result <- input$num1 - input$num2
+    output$result <- renderText(paste("Výsledek je:", result))
+  })
 }
 
 # spuštění aplikace
