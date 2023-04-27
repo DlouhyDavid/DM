@@ -6,5 +6,6 @@ services:
         - "${DM_PORT}:3838"
       user: shiny
       volumes:
+        - "${DM_LOCATION}/docker/shiny-server.conf:/etc/shiny-server/shiny-server.conf"
         - "${DM_LOCATION}:/srv/dm"
       restart: always
