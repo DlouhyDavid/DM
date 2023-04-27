@@ -21,4 +21,4 @@ server <- function(input, output) {
 
 # spuštění aplikace
 app_instance <- shinyApp(ui, server)
-port <- runApp(app_instance, port = 8080)
+port <- runApp(app_instance, port = 3838)
