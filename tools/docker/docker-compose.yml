@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-  nginx:
+  shiny:
       image: rocker/shiny:4.3.0
       ports:
         - "${DM_PORT}:3838"
