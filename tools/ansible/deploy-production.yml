@@ -10,7 +10,7 @@
       project_src: /srv/production/dm/tools/docker
       state: absent
       env_file: /srv/production/dm/tools/environments/production.env
-    ignore_errors: yes
+    #ignore_errors: yes
 
   - name: Deploy code
     ansible.builtin.git:
