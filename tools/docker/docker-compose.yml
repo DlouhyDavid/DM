@@ -7,4 +7,4 @@ services:
       volumes:
         - "${DM_LOCATION}:/srv/dm"
       restart: always
-      entrypoint: ["/bin/bash", "/srv/dm/tools/docker/startup.sh"]
+      command: /bin/bash /srv/dm/tools/docker/startup.sh
