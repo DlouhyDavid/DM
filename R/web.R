@@ -1,5 +1,3 @@
-# Instalace balíčku shinythemes pro použití předpřipravených témat
-install.packages("shinythemes")
 library(shiny)
 library(shinythemes)
 
@@ -40,7 +38,7 @@ ui <- fluidPage(
   numericInput("num2", "Druhé číslo:", value = 0),
   actionButton("sum", "Sečíst", class = "btn-default"),
   actionButton("minus", "Odečíst", class = "btn-default"),
-  textOutput("result", class = "shiny-text-output")
+  textOutput("result")
 )
 
 # serverová funkce
