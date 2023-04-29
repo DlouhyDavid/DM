@@ -32,6 +32,35 @@ ui <- fluidPage(
         font-size: 1.5rem;
         margin-top: 20px;
       }
+
+      /* Nastavení pozadí s gradientem */
+      body {
+        background: linear-gradient(to bottom right, #fc00ff, #00dbde);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #fff; /* barva textu */
+      }}
+      input, button {
+  background-color: #fff; /* barva pozadí inputů a tlačítek */
+  color: #000; /* barva textu inputů a tlačítek */
+  border: none; /* odstranění okrajů */
+  padding: 8px 16px; /* vnitřní odsazení */
+  border-radius: 4px; /* zakulacení rohů */
+  font-size: 16px;
+}
+
+button {
+  background-color: #fc00ff; /* barva pozadí tlačítka */
+  color: #fff; /* barva textu tlačítka */
+  transition: background-color 0.3s ease; /* animace přechodu */
+  cursor: pointer; /* kurzor ruky */
+}
+
+button:hover {
+  background-color: #00dbde; /* barva pozadí tlačítka při najetí myší */
+}
     "))
   ),
   numericInput("num1", "První číslo:", value = 0),
