@@ -10,7 +10,7 @@
       project_src: /srv/production/dm/tools/docker
       state: absent
       env_file: /srv/production/dm/tools/environments/production.env
-    #ignore_errors: yes
+    ignore_errors: yes
 
   - name: Deploy code
     ansible.builtin.git:
@@ -23,8 +23,8 @@
     with_items:
       - cp "/srv/env/dm/production.env" "/srv/production/dm/tools/environments/production.env"
 
-  - name: Start service
-    community.docker.docker_compose:
-      project_name: dm_production
-      project_src: /srv/production/dm/tools/docker
-      env_file: /srv/production/dm/tools/environments/production.env
+  #- name: Start service
+  #  community.docker.docker_compose:
+  #    project_name: dm_production
+  #    project_src: /srv/production/dm/tools/docker
+  #    env_file: /srv/production/dm/tools/environments/production.env
