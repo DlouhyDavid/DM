@@ -10,6 +10,6 @@ services:
         - dm_network
       restart: always
       command: /bin/bash /srv/dm/tools/docker/startup.sh
-  networks:
-    dm_network:
-      bridge:
+networks:
+  dm_network:
+    bridge:
