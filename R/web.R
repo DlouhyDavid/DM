@@ -4,11 +4,6 @@ library(shinythemes)
 # UI rozhraní s použitím tema "Flatly" z balíčku shinythemes
 ui <- fluidPage(
   theme = shinytheme("flatly"), # Použití tématu "Flatly"
-  dashboardHeader(
-    title = "DM - Doporučení léčebné metody",
-    # nastavení loga
-    #logo = img(src = "logo.png", height = "30px"),
-  ),
   tags$head(
     # Vlastní CSS styly vložené pomocí tagu <style>
     tags$style(HTML("
