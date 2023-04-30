@@ -4,6 +4,11 @@ library(shinythemes)
 # UI rozhraní s použitím tema "Flatly" z balíčku shinythemes
 ui <- fluidPage(
   theme = shinytheme("flatly"), # Použití tématu "Flatly"
+  dashboardHeader(
+    title = "DM - Doporučení léčebné metody",
+    # nastavení loga
+    #logo = img(src = "logo.png", height = "30px"),
+  ),
   tags$head(
     # Vlastní CSS styly vložené pomocí tagu <style>
     tags$style(HTML("
@@ -64,12 +69,12 @@ button:hover {
 }
     "))
   ),
-  #numericInput("num1", "První číslo:", value = 0),
-  #numericInput("num2", "Druhé číslo:", value = 0),
-  #actionButton("sum", "Sečíst", class = "btn-default"),
-  #actionButton("minus", "Odečíst", class = "btn-default"),
-  #textOutput("result"),
-#
+  # numericInput("num1", "První číslo:", value = 0),
+  # numericInput("num2", "Druhé číslo:", value = 0),
+  # actionButton("sum", "Sečíst", class = "btn-default"),
+  # actionButton("minus", "Odečíst", class = "btn-default"),
+  # textOutput("result"),
+  #
   numericInput("Age", "Věk:", value = NULL, min = 1, max = 120),
   selectInput("Sex", "Pohlaví:", c("M", "F"), selected = NULL),
   selectInput("BP", "Krevní tlak:", c("LOW", "NORMAL", "HIGH"), selected = NULL),
@@ -82,19 +87,19 @@ button:hover {
 ## serverová funkce
 server <- function(input, output) {
   ## reakce na tlačítko "Sečíst"
-  #observeEvent(input$sum, {
+  # observeEvent(input$sum, {
   #  result <- input$num1 + input$num2
   #  output$result <- renderText(paste("Výsledek je:", result))
-  #})
+  # })
   ## reakce na tlačítko "Odečíst"
-  #observeEvent(input$minus, {
+  # observeEvent(input$minus, {
   #  result <- input$num1 - input$num2
   #  output$result <- renderText(paste("Výsledek je:", result))
-  #})
+  # })
 
   observeEvent(input$submit, {
-      result <- "OK"
-      output$result <- renderText(paste(result))
+    result <- "OK"
+    output$result <- renderText(paste(result))
   })
 }
 
