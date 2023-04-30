@@ -26,7 +26,6 @@
   - name: Start service
     community.docker.docker_compose:
       recreate: always
-      state: started
       project_name: dm_production
       project_src: /srv/production/dm/tools/docker
       env_file: /srv/production/dm/tools/environments/production.env
