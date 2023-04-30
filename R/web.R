@@ -75,22 +75,28 @@ button:hover {
   selectInput("BP", "Krevní tlak:", c("LOW", "NORMAL", "HIGH"), selected = NULL),
   selectInput("Cholesterol", "Cholesterol:", c("LOW", "NORMAL", "HIGH"), selected = NULL),
   numericInput("Na_to_K", "Poměr Na/K:", value = NULL, min = 0, max = Inf, step = 0.1),
-  actionButton("submit", "Odeslat", class = "btn-default")
+  actionButton("submit", "Odeslat", class = "btn-default"),
+  textOutput("result")
 )
 
 ## serverová funkce
-#server <- function(input, output) {
-#  # reakce na tlačítko "Sečíst"
-#  observeEvent(input$sum, {
-#    result <- input$num1 + input$num2
-#    output$result <- renderText(paste("Výsledek je:", result))
-#  })
-#  # reakce na tlačítko "Odečíst"
-#  observeEvent(input$minus, {
-#    result <- input$num1 - input$num2
-#    output$result <- renderText(paste("Výsledek je:", result))
-#  })
-#}
+server <- function(input, output) {
+  ## reakce na tlačítko "Sečíst"
+  #observeEvent(input$sum, {
+  #  result <- input$num1 + input$num2
+  #  output$result <- renderText(paste("Výsledek je:", result))
+  #})
+  ## reakce na tlačítko "Odečíst"
+  #observeEvent(input$minus, {
+  #  result <- input$num1 - input$num2
+  #  output$result <- renderText(paste("Výsledek je:", result))
+  #})
+
+  observeEvent(input$submit, {
+      result <- "OK"
+      output$result <- renderText(paste(result))
+  })
+}
 
 # spuštění aplikace
 app_instance <- shinyApp(ui, server)
