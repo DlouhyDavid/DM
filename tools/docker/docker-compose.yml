@@ -12,3 +12,4 @@ services:
       command: /bin/bash /srv/dm/tools/docker/startup.sh
 networks:
   dm_network:
+    driver: bridge
