@@ -67,7 +67,14 @@ button:hover {
   numericInput("num2", "Druhé číslo:", value = 0),
   actionButton("sum", "Sečíst", class = "btn-default"),
   actionButton("minus", "Odečíst", class = "btn-default"),
-  textOutput("result")
+  textOutput("result"),
+#
+  numericInput("Age", "Věk:", value = NULL, min = 1, max = 120),
+  selectInput("Sex", "Pohlaví:", c("M", "F"), selected = NULL),
+  selectInput("BP", "Krevní tlak:", c("LOW", "NORMAL", "HIGH"), selected = NULL),
+  selectInput("Cholesterol", "Cholesterol:", c("LOW", "NORMAL", "HIGH"), selected = NULL),
+  numericInput("Na_to_K", "Poměr Na/K:", value = NULL, min = 0, max = Inf, step = 0.1),
+  actionButton("submit", "Odeslat", class = "btn-default")
 )
 
 # serverová funkce
