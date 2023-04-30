@@ -35,13 +35,14 @@ ui <- fluidPage(
 
       /* Nastavení pozadí s gradientem */
       body {
-        background: linear-gradient(to bottom right, #fc00ff, #00dbde);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        color: #fff; /* barva textu */
-      }}
+  background: linear-gradient(to bottom right, #fc00ff, #00dbde);
+  background-attachment: fixed; /* přidáváme novou vlastnost */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
       input, button {
   background-color: #fff; /* barva pozadí inputů a tlačítek */
   color: #000; /* barva textu inputů a tlačítek */
