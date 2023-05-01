@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # instalce balíků
-R -e 'install.packages("shinythemes")'
+R -e 'source("/workspaces/DM/R/init.R")'
 
 # spuštění aplikace R Shiny
-R -e 'shiny::runApp("/srv/dm/R/web.R")'
+R -e 'shiny::runApp("web.R")'
