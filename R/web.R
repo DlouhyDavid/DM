@@ -1,4 +1,4 @@
-source("/workspaces/DM/R/utils.R")
+source("/srv/dm/R/utils.R")
 
 library(shiny)
 library(shinythemes)
@@ -6,8 +6,8 @@ library(C50)
 library(CHAID)
 library(stringr)
 
-training_data_file <- "/workspaces/DM/data/DRUG1n"
-testing_data_file <- "/workspaces/DM/data/DRUG1n_test"
+training_data_file <- "/srv/dm/data/DRUG1n"
+testing_data_file <- "/srv/dm/data/DRUG1n_test"
 
 testing_data <- load_data(testing_data_file)
 testing_data_factor <- get_factor(testing_data)

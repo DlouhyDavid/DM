@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # instalce balíků
-R -e 'source("/workspaces/DM/R/init.R")'
+R -e 'source("/srv/dm/R/init.R")'
 
 # spuštění aplikace R Shiny
-R -e 'shiny::runApp("web.R")'
+R -e 'shiny::runApp("/srv/dm/R/web.R")'
