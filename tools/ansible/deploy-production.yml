@@ -17,6 +17,7 @@
       repo: 'git@github.com:DlouhyDavid/DM.git'
       dest: /srv/production/dm
       version: "{{ GIT_BRANCH }}"
+      force: true
   
   - name: Copy env
     command: "{{item}}"
