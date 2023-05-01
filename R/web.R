@@ -111,10 +111,11 @@ ui <- fluidPage(
 server <- function(input, output) {
     observeEvent(input$submit, {
       user_data_factor <- data.frame(
-      Age = as.integer(25),
-      Sex = "M", BP = "HIGH",
-      Cholesterol = "HIGH",
-      Na_to_K = 1.247,
+      Age = as.integer(input$Age),
+      Sex = input$Sex,
+      BP = input$BP,
+      Cholesterol = input$Cholesterol,
+      Na_to_K = as.numeric(input$Na_to_K),
       stringsAsFactors = TRUE
     )
     predikce_uzivatel_chaid <- recomend(
