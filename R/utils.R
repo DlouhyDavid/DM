@@ -41,10 +41,19 @@ recomend <- function(user_data, model, training_data_factor) {
     user_data$Sex <- as.factor(user_data$Sex)
     user_data$BP <- as.factor(user_data$BP)
     user_data$Cholesterol <- as.factor(user_data$Cholesterol)
-    user_data$Sex <- factor(user_data$Sex, levels=levels(training_data_factor$Sex))
-    user_data$BP <- factor(user_data$BP, levels=levels(training_data_factor$BP))
-    user_data$Cholesterol <- factor(user_data$Cholesterol, levels=levels(training_data_factor$Cholesterol))
-    return (as.character(predict(model, newdata = user_data)))
+    user_data$Sex <- factor(
+        user_data$Sex,
+        levels = levels(training_data_factor$Sex)
+    )
+    user_data$BP <- factor(
+        user_data$BP,
+        levels = levels(training_data_factor$BP)
+    )
+    user_data$Cholesterol <- factor(
+        user_data$Cholesterol,
+        levels = levels(training_data_factor$Cholesterol)
+    )
+    return(as.character(predict(model, newdata = user_data)))
 }
 
 save(list = c(
