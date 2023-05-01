@@ -35,63 +35,59 @@ ui <- fluidPage(
 
       /* Nastavení pozadí s gradientem */
       body {
-  background: linear-gradient(to bottom right, #fc00ff, #00dbde);
-  background-attachment: fixed; /* přidáváme novou vlastnost */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  color: #fff;
-}
-      input, button {
-  background-color: #fff; /* barva pozadí inputů a tlačítek */
-  color: #000; /* barva textu inputů a tlačítek */
-  border: none; /* odstranění okrajů */
-  padding: 8px 16px; /* vnitřní odsazení */
-  border-radius: 4px; /* zakulacení rohů */
-  font-size: 16px;
-}
+        background: linear-gradient(to bottom right, #fc00ff, #00dbde);
+        background-attachment: fixed; /* přidáváme novou vlastnost */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #fff;
+      }
+            input, button {
+        background-color: #fff; /* barva pozadí inputů a tlačítek */
+        color: #000; /* barva textu inputů a tlačítek */
+        border: none; /* odstranění okrajů */
+        padding: 8px 16px; /* vnitřní odsazení */
+        border-radius: 4px; /* zakulacení rohů */
+        font-size: 16px;
+      }
 
-button {
-  background-color: #fc00ff; /* barva pozadí tlačítka */
-  color: #fff; /* barva textu tlačítka */
-  transition: background-color 0.3s ease; /* animace přechodu */
-  cursor: pointer; /* kurzor ruky */
-}
+      button {
+        background-color: #fc00ff; /* barva pozadí tlačítka */
+        color: #fff; /* barva textu tlačítka */
+        transition: background-color 0.3s ease; /* animace přechodu */
+        cursor: pointer; /* kurzor ruky */
+      }
 
-button:hover {
-  background-color: #00dbde; /* barva pozadí tlačítka při najetí myší */
-}
+      button:hover {
+        background-color: #00dbde; /* barva pozadí tlačítka při najetí myší */
+      }
     "))
   ),
-  # numericInput("num1", "První číslo:", value = 0),
-  # numericInput("num2", "Druhé číslo:", value = 0),
-  # actionButton("sum", "Sečíst", class = "btn-default"),
-  # actionButton("minus", "Odečíst", class = "btn-default"),
-  # textOutput("result"),
-  #
+
   numericInput("Age", "Věk:", value = NULL, min = 1, max = 120),
   selectInput("Sex", "Pohlaví:", c("M", "F"), selected = NULL),
-  selectInput("BP", "Krevní tlak:", c("LOW", "NORMAL", "HIGH"), selected = NULL),
-  selectInput("Cholesterol", "Cholesterol:", c("LOW", "NORMAL", "HIGH"), selected = NULL),
-  numericInput("Na_to_K", "Poměr Na/K:", value = NULL, min = 0, max = Inf, step = 0.1),
+
+  selectInput("BP", "Krevní tlak:",
+    c("LOW", "NORMAL", "HIGH"),
+    selected = NULL
+  ),
+
+  selectInput("Cholesterol", "Cholesterol:",
+    c("LOW", "NORMAL", "HIGH"),
+    selected = NULL
+  ),
+
+  numericInput("Na_to_K", "Poměr Na/K:",
+    value = NULL, min = 0, max = Inf, step = 0.1
+  ),
+
   actionButton("submit", "Odeslat", class = "btn-default"),
   textOutput("result")
 )
 
 ## serverová funkce
 server <- function(input, output) {
-  ## reakce na tlačítko "Sečíst"
-  # observeEvent(input$sum, {
-  #  result <- input$num1 + input$num2
-  #  output$result <- renderText(paste("Výsledek je:", result))
-  # })
-  ## reakce na tlačítko "Odečíst"
-  # observeEvent(input$minus, {
-  #  result <- input$num1 - input$num2
-  #  output$result <- renderText(paste("Výsledek je:", result))
-  # })
-
   observeEvent(input$submit, {
     result <- "OK"
     output$result <- renderText(paste(result))
