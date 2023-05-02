@@ -59,10 +59,20 @@ recomend <- function(user_data, model, training_data_factor) {
 # Uloží data od uživatele včetně odpovědi
 store_user_data <- function(user_data, recomend_c50, recomend_chaid, path) {
     write.table(
-        cbind(user_data, recomend_c50, recomend_chaid),
+        cbind(user_data, recomend_c50, recomend_chaid, Sys.time()),
         file = path,
         sep = ";",
         row.names = FALSE, col.names = FALSE,
         append = TRUE
     )
+}
+
+# Načte historická data od uživatele
+load_user_data <- function(path) {
+    data <- read.csv2(path, header = FALSE)
+    colnames(data) <- c(
+        "Age", "Sex", "BP", "Cholesterol", "Na_to_K",
+        "RecomendCHAID", "RecomendC50", "Time"
+    )
+    return(data)
 }
