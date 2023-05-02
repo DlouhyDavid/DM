@@ -1,4 +1,9 @@
 source("/srv/dm/R/utils.R")
+#source("/workspaces/DM/R/utils.R")
+
+# Global export
+store_user_data <- store_user_data
+recomend <- recomend
 
 library(shiny)
 library(shinythemes)
@@ -7,7 +12,11 @@ library(CHAID)
 library(stringr)
 
 training_data_file <- "/srv/dm/data/DRUG1n"
+#training_data_file <- "/workspaces/DM/data/DRUG1n"
 testing_data_file <- "/srv/dm/data/DRUG1n_test"
+#testing_data_file <- "/workspaces/DM/data/DRUG1n_test"
+user_data_file <- "/srv/dm/data/DRUG1n_user"
+#user_data_file <- "/workspaces/DM/data/DRUG1n_user"
 
 testing_data <- load_data(testing_data_file)
 testing_data_factor <- get_factor(testing_data)
@@ -128,8 +137,22 @@ server <- function(input, output) {
       model_c50,
       training_data_factor
     )
-    result <- c("CHAID: ",predikce_uzivatel_chaid," | C5.0: ",predikce_uzivatel_c50)
+    result <- c("CHAID: ", predikce_uzivatel_chaid,
+      " | C5.0: ", predikce_uzivatel_c50
+    )
     output$result <- renderText(paste(result))
+    user_data <- data.frame(
+      input$Age,
+      input$Sex,
+      input$BP,
+      input$Cholesterol,
+      input$Na_to_K
+    )
+    store_user_data(
+      user_data,
+      predikce_uzivatel_c50,
+      predikce_uzivatel_chaid,
+      user_data_file)
   })
 }
 

@@ -56,12 +56,13 @@ recomend <- function(user_data, model, training_data_factor) {
     return(as.character(predict(model, newdata = user_data)))
 }
 
-save(list = c(
-    "load_data",
-    "get_factor",
-    "get_score_table",
-    "get_score",
-    "prepare_data"
-    ),
-    file = "utils.R"
-)
+# Uloží data od uživatele včetně odpovědi
+store_user_data <- function(user_data, recomend_c50, recomend_chaid, path) {
+    write.table(
+        cbind(user_data, recomend_c50, recomend_chaid),
+        file = path,
+        sep = ";",
+        row.names = FALSE, col.names = FALSE,
+        append = TRUE
+    )
+}
