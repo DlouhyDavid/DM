@@ -36,7 +36,7 @@ get_score <- function(score_table) {
     return(sum(score_table$x3))
 }
 
-# Doporučení léčby
+# Doporučení léčby včetně jistoty
 recomend <- function(user_data, model, training_data_factor) {
     user_data$Sex <- as.factor(user_data$Sex)
     user_data$BP <- as.factor(user_data$BP)
@@ -53,7 +53,13 @@ recomend <- function(user_data, model, training_data_factor) {
         user_data$Cholesterol,
         levels = levels(training_data_factor$Cholesterol)
     )
-    return(as.character(predict(model, newdata = user_data)))
+    predictions <- predict(model, newdata = user_data)
+    class_probabilities <- predict(model, newdata = user_data, type = "prob")
+    drug <- as.character(predictions)
+    confidence <- max(class_probabilities)  * 100
+    recomendations <- data.frame(drug, confidence)
+    names(recomendations) <- c("drug", "confidence")
+    return(recomendations)
 }
 
 # Uloží data od uživatele včetně odpovědi
@@ -72,7 +78,8 @@ load_user_data <- function(path) {
     data <- read.csv2(path, header = FALSE)
     colnames(data) <- c(
         "Age", "Sex", "BP", "Cholesterol", "Na_to_K",
-        "RecomendCHAID", "RecomendC50", "Time"
+        "RecomendCHAID", "ConfidenceCHAID",
+        "RecomendC50", "ConfidenceC50", "Time"
     )
     return(data)
 }

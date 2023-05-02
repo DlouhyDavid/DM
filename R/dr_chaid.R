@@ -19,9 +19,13 @@ model_chaid <- ctree(
 )
 
 predikce <- predict(model_chaid, testing_data_factor)
+probabilities <- predict(model_chaid, testing_data_factor, type = "prob")
 
-score_table <- get_score_table(predikce, testing_data)
+score_table <- data.frame(
+    get_score_table(predikce, testing_data),
+    probabilities)
 score <- get_score(score_table)
+
 
 user_data_factor <- data.frame(
     Age = as.integer(25),

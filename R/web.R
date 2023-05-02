@@ -159,8 +159,14 @@ server <- function(input, output) {
       training_data_factor
     )
     # Připrava odpovědí
-    result_chaid <- paste("CHAID: ", predikce_uzivatel_chaid)
-    result_c50 <- paste("C5.0: ", predikce_uzivatel_c50)
+    result_chaid <- paste(
+      "CHAID: ", predikce_uzivatel_chaid$drug,
+      "(", predikce_uzivatel_chaid$confidence, ")"
+    )
+    result_c50 <- paste(
+      "C5.0: ", predikce_uzivatel_c50$drug,
+      "(", predikce_uzivatel_c50$confidence, ")"
+    )
     # Modal pro odpoveď
     showModal(modalDialog(
       tags$h3("DOPORUČENÝ LÉK:",

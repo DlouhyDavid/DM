@@ -15,8 +15,11 @@ training_data_factor <- get_factor(training_data)
 
 model_c50 <- C5.0(training_data_factor[, -5], training_data_factor$Drug)
 predikce <- predict(model_c50, testing_data_factor)
+probabilities <- predict(model_c50, testing_data_factor, type = "prob")
 
-score_table <- get_score_table(predikce, testing_data)
+score_table <- data.frame(
+    get_score_table(predikce, testing_data),
+    probabilities)
 score <- get_score(score_table)
 
 user_data_factor <- data.frame(
