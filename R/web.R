@@ -1,15 +1,14 @@
+# Import balíků
 library(shiny)
 library(shinythemes)
 library(C50)
 library(CHAID)
 library(stringr)
 library(ggplot2)
-
+# Definice cesty
 base_path <- "/workspaces/DM"
-
+# Import modulů
 source(paste(base_path, "/R/utils.R", sep = ""))
-
-# Global export
 store_user_data <- store_user_data
 recomend <- recomend
 load_user_data <- load_user_data
@@ -19,6 +18,7 @@ testing_data_file <- paste(base_path, "/data/DRUG1n_test", sep = "")
 user_data_file <- paste(base_path, "/data/DRUG1n_user", sep = "")
 image_rec <- paste(base_path, "/data/modal_rec.jpg", sep = "")
 
+# Načtení dat
 testing_data <- load_data(testing_data_file)
 testing_data_factor <- get_factor(testing_data)
 
@@ -26,17 +26,17 @@ training_data <- load_data(training_data_file)
 training_data <- prepare_data(training_data)
 training_data_factor <- get_factor(training_data)
 
+#Připrava modelů
 model_chaid <- ctree(
-    Drug ~ Age + Sex + BP + Cholesterol + Na_to_K,
-    data = training_data_factor
+  Drug ~ Age + Sex + BP + Cholesterol + Na_to_K,
+  data = training_data_factor
 )
 model_c50 <- C5.0(training_data_factor[, -5], training_data_factor$Drug)
-
-# UI rozhraní s použitím tema "Flatly" z balíčku shinythemes
+# Definice UI rozhraní
 ui <- fluidPage(
-  theme = shinytheme("flatly"), # Použití tématu "Flatly"
+  theme = shinytheme("flatly"),
+  # Vlastní CSS
   tags$head(
-    # Vlastní CSS styly vložené pomocí tagu <style>
     tags$style(HTML("
       /* Stylování vstupních políček */
       .form-group input[type='number'] {
@@ -95,44 +95,50 @@ ui <- fluidPage(
       }
     "))
   ),
-
+  # Prvky fromuláře
   numericInput("Age", "Věk:", value = NULL, min = 1, max = 120),
   selectInput("Sex", "Pohlaví:", c("M", "F"), selected = NULL),
-
   selectInput("BP", "Krevní tlak:",
     c("LOW", "NORMAL", "HIGH"),
     selected = NULL
   ),
-
   selectInput("Cholesterol", "Cholesterol:",
     c("LOW", "NORMAL", "HIGH"),
     selected = NULL
   ),
-
   numericInput("Na_to_K", "Poměr Na/K:",
     value = NULL, min = 0, max = Inf, step = 0.1
   ),
   fluidRow(
-  column(width = 6, 
-         actionButton("submit", "Odeslat", class = "btn-default")
-  ),
-  column(width = 6,
-         actionButton("show_plot", "Zobrazit grafy", class = "btn-default")
+    column(
+      width = 6,
+      actionButton("submit", "Odeslat", class = "btn-default")
+    ),
+    column(
+      width = 6,
+      actionButton("show_plot", "Zobrazit grafy", class = "btn-default")
+    )
   )
-)
 )
 
 ## serverová funkce
 server <- function(input, output) {
-  output$image <- renderImage({
-            list(src = image_rec,
-                 alt = "Doporučení",
-                 width = "100%",
-                 height = "auto"
-            )
-        }, deleteFile = FALSE)
-    observeEvent(input$submit, {
-      user_data_factor <- data.frame(
+  # Příprava komponent
+  output$image <- renderImage(
+    {
+      list(
+        src = image_rec,
+        alt = "Doporučení",
+        width = "100%",
+        height = "auto"
+      )
+    },
+    deleteFile = FALSE
+  )
+  # Načtení dat od uživatele a jejich zpracování
+  observeEvent(input$submit, {
+    # Načtení dat
+    user_data_factor <- data.frame(
       Age = as.integer(input$Age),
       Sex = input$Sex,
       BP = input$BP,
@@ -140,24 +146,23 @@ server <- function(input, output) {
       Na_to_K = as.numeric(input$Na_to_K),
       stringsAsFactors = TRUE
     )
+    # Predikce CHAID
     predikce_uzivatel_chaid <- recomend(
       user_data_factor,
       model_chaid,
       training_data_factor
     )
+    #Predikce C5.0
     predikce_uzivatel_c50 <- recomend(
       user_data_factor,
       model_c50,
       training_data_factor
     )
-
-    result_chaid <- paste("CHAID: ", predikce_uzivatel_chaid
-    )
-
-    result_c50 <- paste("C5.0: ", predikce_uzivatel_c50
-    )
-  
-  showModal(modalDialog(
+    # Připrava odpovědí
+    result_chaid <- paste("CHAID: ", predikce_uzivatel_chaid)
+    result_c50 <- paste("C5.0: ", predikce_uzivatel_c50)
+    # Modal pro odpoveď
+    showModal(modalDialog(
       tags$h3("DOPORUČENÝ LÉK:",
         style = "text-align:center; font-weight:bold; color:#082948;"
       ),
@@ -165,12 +170,11 @@ server <- function(input, output) {
       tags$p(result_chaid, style = "text-align:center; color:#082948;"),
       tags$p(result_c50, style = "text-align:center; color:#082948;"),
       br(),
-      imageOutput('image'),
+      imageOutput("image"),
       easyClose = TRUE,
       footer = NULL
     ))
-
-    output$result <- renderText(paste(result))
+    # Uložení dat ze vstupu
     user_data <- data.frame(
       input$Age,
       input$Sex,
@@ -185,37 +189,50 @@ server <- function(input, output) {
       user_data_file
     )
   })
-  # funkce pro zobrazení modálního okna s grafem po kliknutí na tlačítko
+  # Vykreslení statistik
   observeEvent(input$show_plot, {
     loaded_user_data <- load_user_data(user_data_file)
-    # kód pro výpočet dat pro graf
+    # Graf četností pro CHAID
     output$graf_chaid <- renderPlot({
-      # výpočet četností
       freq_table <- table(loaded_user_data$RecomendCHAID)
-      #freq_table <- table(loaded_user_data$RecomendC50)
-      #freq_table <- table(loaded_user_data$Time)
-      # vytvoření sloupcového grafu
-      barplot(freq_table, main = "Doporučení dle CHAID", xlab = "Lék", ylab = "Počet")
+      barplot(freq_table,
+        main = "Doporučení dle CHAID",
+        xlab = "Lék", ylab = "Počet"
+      )
     })
+    # Graf četností pro C5.0
     output$graf_c50 <- renderPlot({
       freq_table <- table(loaded_user_data$RecomendC50)
-      barplot(freq_table, main = "Doporučení dle C5.0", xlab = "Lék", ylab = "Počet")
+      barplot(freq_table,
+        main = "Doporučení dle C5.0",
+        xlab = "Lék", ylab = "Počet"
+      )
     })
-output$graf_time <- renderPlot({
-  # Převod časových údajů na formát s datumem a časem
-  loaded_user_data$DateTime <- as.POSIXct(loaded_user_data$Time, format = "%Y-%m-%d %H:%M:%S")
-
-  # Vytvoření data frame s jednotkovými hodnotami v počtu vkládání dat a jejich časovými údaji
-  df <- data.frame(DateTime = loaded_user_data$DateTime, Četnost = rep(1, length(loaded_user_data$DateTime)))
-  df <- aggregate(df$Četnost, by = list(DateTime = df$DateTime), FUN = sum)
-
-  # Vykreslení histogramu časové řady
-  ggplot(df, aes(x = DateTime)) +
-    geom_histogram(fill = "purple", color = "white", binwidth = 3600, aes(y = after_stat(count))) +
-    labs(x = "Datum a čas", y = "Počet vkládání dat", title = "Četnost vkládání dat") +
-    scale_x_datetime(date_labels = "%Y-%m-%d %H:%M:%S") + 
-    theme(plot.title = element_text(size = 14, face = "bold", hjust = 0.5, color = "black"))
-})
+    # Graf historie
+    output$graf_time <- renderPlot({
+      loaded_user_data$DateTime <- as.POSIXct(loaded_user_data$Time,
+        format = "%Y-%m-%d %H:%M:%S"
+      )
+      df <- data.frame(DateTime = loaded_user_data$DateTime,
+        Četnost = rep(1, length(loaded_user_data$DateTime))
+      )
+      df <- aggregate(df$Četnost, by = list(DateTime = df$DateTime), FUN = sum)
+      ggplot(df, aes(x = DateTime)) + # nolint: object_usage_linter.
+        geom_histogram(
+          fill = "purple",
+          color = "white",
+          binwidth = 3600,
+          aes(y = after_stat(count))) + # nolint: object_usage_linter.
+        labs(
+          x = "Datum a čas",
+          y = "Počet vkládání dat",
+          title = "Četnost vkládání dat") +
+        scale_x_datetime(date_labels = "%Y-%m-%d %H:%M:%S") +
+        theme(plot.title = element_text(
+          size = 14, face = "bold", hjust = 0.5, color = "black")
+        )
+    })
+    # Vykreslení grafů v modalu
     showModal(modalDialog(
       plotOutput("graf_time"),
       plotOutput("graf_chaid"),
