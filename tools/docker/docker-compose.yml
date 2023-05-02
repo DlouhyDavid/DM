@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  server:
+      image: rocker/shiny:4.3.0
+      ports:
+        - "${DM_PORT}:3838"
+      volumes:
+        - "${DM_LOCATION}:/workspaces/DM"
+      networks:
+        - dm_network
+      restart: always
+      command: /bin/bash /workspaces/DM/tools/docker/startup.sh
+networks:
+  dm_network:
+    driver: bridge
