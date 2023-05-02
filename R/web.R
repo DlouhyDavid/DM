@@ -1,11 +1,3 @@
-source("/srv/dm/R/utils.R")
-#source("/workspaces/DM/R/utils.R")
-
-# Global export
-store_user_data <- store_user_data
-recomend <- recomend
-load_user_data <- load_user_data
-
 library(shiny)
 library(shinythemes)
 library(C50)
@@ -13,14 +5,19 @@ library(CHAID)
 library(stringr)
 library(ggplot2)
 
-training_data_file <- "/srv/dm/data/DRUG1n"
-#training_data_file <- "/workspaces/DM/data/DRUG1n"
-testing_data_file <- "/srv/dm/data/DRUG1n_test"
-#testing_data_file <- "/workspaces/DM/data/DRUG1n_test"
- user_data_file <- "/srv/dm/data/DRUG1n_user"
-#user_data_file <- "/workspaces/DM/data/DRUG1n_user"
- image_rec <- "/srv/dm/data/modal_rec.jpg"
-#image_rec <- "/workspaces/DM/data/modal_rec.jpg"
+base_path <- "/workspaces/DM"
+
+source(paste(base_path, "/R/utils.R", sep = ""))
+
+# Global export
+store_user_data <- store_user_data
+recomend <- recomend
+load_user_data <- load_user_data
+
+training_data_file <- paste(base_path, "/data/DRUG1n", sep = "")
+testing_data_file <- paste(base_path, "/data/DRUG1n_test", sep = "")
+user_data_file <- paste(base_path, "/data/DRUG1n_user", sep = "")
+image_rec <- paste(base_path, "/data/modal_rec.jpg", sep = "")
 
 testing_data <- load_data(testing_data_file)
 testing_data_factor <- get_factor(testing_data)
