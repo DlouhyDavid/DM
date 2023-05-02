@@ -103,7 +103,7 @@ ui <- fluidPage(
     selected = NULL
   ),
   selectInput("Cholesterol", "Cholesterol:",
-    c("LOW", "NORMAL", "HIGH"),
+    c("NORMAL", "HIGH"),
     selected = NULL
   ),
   numericInput("Na_to_K", "Poměr Na/K:",
