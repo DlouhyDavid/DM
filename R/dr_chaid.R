@@ -1,10 +1,11 @@
-source("/workspaces/DM/R/utils.R")
+base_path <- "/workspaces/DM"
+source(paste(base_path, "/R/utils.R", sep = ""))
 
 library(CHAID)
 library(stringr)
 
-training_data_file <- "/workspaces/DM/data/DRUG1n"
-testing_data_file <- "/workspaces/DM/data/DRUG1n_test"
+training_data_file <- paste(base_path, "/data/DRUG1n", sep = "")
+testing_data_file <- paste(base_path, "/data/DRUG1n_test", sep = "")
 
 testing_data <- load_data(testing_data_file)
 testing_data_factor <- get_factor(testing_data)
