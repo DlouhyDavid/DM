@@ -1,0 +1,326 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="httpgd" width="1122.00" height="902.00" viewBox="0 0 1122.00 902.00">
+<defs>
+  <style type='text/css'><![CDATA[
+    .httpgd line, .httpgd polyline, .httpgd polygon, .httpgd path, .httpgd rect, .httpgd circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+<clipPath id="c0"><rect x="0.00" y="0.00" width="1122.00" height="902.00"/></clipPath>
+<clipPath id="c1"><rect x="57.60" y="627.73" width="84.17" height="238.27"/></clipPath>
+<clipPath id="c2"><rect x="0.00" y="0.00" width="1122.00" height="902.00"/></clipPath>
+<clipPath id="c3"><rect x="213.77" y="627.73" width="84.17" height="238.27"/></clipPath>
+<clipPath id="c4"><rect x="0.00" y="0.00" width="1122.00" height="902.00"/></clipPath>
+<clipPath id="c5"><rect x="369.94" y="627.73" width="84.17" height="238.27"/></clipPath>
+<clipPath id="c6"><rect x="0.00" y="0.00" width="1122.00" height="902.00"/></clipPath>
+<clipPath id="c7"><rect x="526.11" y="627.73" width="84.17" height="238.27"/></clipPath>
+<clipPath id="c8"><rect x="0.00" y="0.00" width="1122.00" height="902.00"/></clipPath>
+<clipPath id="c9"><rect x="682.29" y="627.73" width="84.17" height="238.27"/></clipPath>
+<clipPath id="c10"><rect x="0.00" y="0.00" width="1122.00" height="902.00"/></clipPath>
+<clipPath id="c11"><rect x="838.46" y="627.73" width="84.17" height="238.27"/></clipPath>
+<clipPath id="c12"><rect x="0.00" y="0.00" width="1122.00" height="902.00"/></clipPath>
+<clipPath id="c13"><rect x="994.63" y="627.73" width="84.17" height="238.27"/></clipPath>
+<clipPath id="c14"><rect x="0.00" y="0.00" width="1122.00" height="902.00"/></clipPath>
+</defs>
+<rect width="100%" height="100%" style="stroke: none;fill: #FFFFFF;"/>
+<g clip-path="url(#c0)">
+<polyline points="482.91,73.97 326.74,221.90" style="stroke-width: 0.75;"/>
+<polyline points="482.91,73.97 951.43,221.90" style="stroke-width: 0.75;"/>
+<polygon points="443.47,73.97 444.26,69.67 445.04,67.92 445.83,66.60 446.62,65.50 447.41,64.55 448.20,63.71 448.99,62.94 449.78,62.25 450.57,61.60 451.36,61.01 452.15,60.45 452.93,59.93 453.72,59.44 454.51,58.98 455.30,58.54 456.09,58.13 456.88,57.74 457.67,57.37 458.46,57.02 459.25,56.69 459.25,56.69 463.19,55.26 467.14,54.17 471.08,53.36 475.02,52.80 478.97,52.47 482.91,52.37 486.86,52.47 490.80,52.80 494.75,53.36 498.69,54.17 502.64,55.26 506.58,56.69 506.58,56.69 507.37,57.02 508.16,57.37 508.95,57.74 509.74,58.13 510.53,58.54 511.32,58.98 512.11,59.44 512.89,59.93 513.68,60.45 514.47,61.01 515.26,61.60 516.05,62.25 516.84,62.94 517.63,63.71 518.42,64.55 519.21,65.50 520.00,66.60 520.78,67.92 521.57,69.67 522.36,73.97 522.36,73.97 521.57,78.27 520.78,80.01 520.00,81.34 519.21,82.43 518.42,83.38 517.63,84.23 516.84,84.99 516.05,85.69 515.26,86.33 514.47,86.93 513.68,87.48 512.89,88.01 512.11,88.49 511.32,88.96 510.53,89.39 509.74,89.80 508.95,90.19 508.16,90.56 507.37,90.91 506.58,91.25 506.58,91.25 502.64,92.67 498.69,93.76 494.75,94.57 490.80,95.13 486.86,95.46 482.91,95.57 478.97,95.46 475.02,95.13 471.08,94.57 467.14,93.76 463.19,92.67 459.25,91.25 459.25,91.25 458.46,90.91 457.67,90.56 456.88,90.19 456.09,89.80 455.30,89.39 454.51,88.96 453.72,88.49 452.93,88.01 452.15,87.48 451.36,86.93 450.57,86.33 449.78,85.69 448.99,84.99 448.20,84.23 447.41,83.38 446.62,82.43 445.83,81.34 445.04,80.01 444.26,78.27 443.47,73.97" style="stroke-width: 0.75;fill: #FFFFFF;" />
+<g><text x="482.91" y="71.14" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.01px" lengthAdjust="spacingAndGlyphs">BP</text></g>
+<g><text x="482.91" y="85.54" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="50.38px" lengthAdjust="spacingAndGlyphs">p &lt; 0.001</text></g>
+<rect x="475.71" y="45.17" width="14.40" height="14.40" style="stroke-width: 0.75;fill: #FFFFFF;"/>
+<g><text x="482.91" y="56.74" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">1</text></g>
+<rect x="389.83" y="140.73" width="30.00" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="404.83" y="152.31" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="30.00px" lengthAdjust="spacingAndGlyphs">HIGH</text></g>
+<rect x="674.50" y="140.73" width="85.34" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="717.17" y="152.31" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="85.34px" lengthAdjust="spacingAndGlyphs">LOW, NORMAL</text></g>
+<polyline points="326.74,221.90 170.57,369.83" style="stroke-width: 0.75;"/>
+<polyline points="326.74,221.90 404.83,665.70" style="stroke-width: 0.75;"/>
+<polygon points="287.30,221.90 288.08,217.60 288.87,215.85 289.66,214.53 290.45,213.43 291.24,212.48 292.03,211.64 292.82,210.88 293.61,210.18 294.40,209.54 295.18,208.94 295.97,208.38 296.76,207.86 297.55,207.37 298.34,206.91 299.13,206.47 299.92,206.06 300.71,205.67 301.50,205.30 302.29,204.95 303.07,204.62 303.07,204.62 307.02,203.19 310.96,202.10 314.91,201.29 318.85,200.74 322.80,200.41 326.74,200.30 330.69,200.41 334.63,200.74 338.58,201.29 342.52,202.10 346.47,203.19 350.41,204.62 350.41,204.62 351.20,204.95 351.99,205.30 352.78,205.67 353.57,206.06 354.36,206.47 355.15,206.91 355.93,207.37 356.72,207.86 357.51,208.38 358.30,208.94 359.09,209.54 359.88,210.18 360.67,210.88 361.46,211.64 362.25,212.48 363.03,213.43 363.82,214.53 364.61,215.85 365.40,217.60 366.19,221.90 366.19,221.90 365.40,226.20 364.61,227.95 363.82,229.27 363.03,230.37 362.25,231.32 361.46,232.16 360.67,232.92 359.88,233.62 359.09,234.26 358.30,234.86 357.51,235.42 356.72,235.94 355.93,236.43 355.15,236.89 354.36,237.33 353.57,237.74 352.78,238.13 351.99,238.50 351.20,238.85 350.41,239.18 350.41,239.18 346.47,240.61 342.52,241.70 338.58,242.51 334.63,243.06 330.69,243.39 326.74,243.50 322.80,243.39 318.85,243.06 314.91,242.51 310.96,241.70 307.02,240.61 303.07,239.18 303.07,239.18 302.29,238.85 301.50,238.50 300.71,238.13 299.92,237.74 299.13,237.33 298.34,236.89 297.55,236.43 296.76,235.94 295.97,235.42 295.18,234.86 294.40,234.26 293.61,233.62 292.82,232.92 292.03,232.16 291.24,231.32 290.45,230.37 289.66,229.27 288.87,227.95 288.08,226.20 287.30,221.90" style="stroke-width: 0.75;fill: #FFFFFF;" />
+<g><text x="326.74" y="219.07" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="46.70px" lengthAdjust="spacingAndGlyphs">Na_to_K</text></g>
+<g><text x="326.74" y="233.47" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="50.38px" lengthAdjust="spacingAndGlyphs">p &lt; 0.001</text></g>
+<rect x="319.54" y="193.10" width="14.40" height="14.40" style="stroke-width: 0.75;fill: #FFFFFF;"/>
+<g><text x="326.74" y="204.67" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">2</text></g>
+<rect x="220.69" y="288.67" width="55.94" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="230.14" y="299.99" style="font-family: Nimbus Sans L;font-size: 12.00px;font-weight: 0;" textLength="7.01px" lengthAdjust="spacingAndGlyphs">≤</text></g>
+<g><text x="239.92" y="299.99" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="36.71px" lengthAdjust="spacingAndGlyphs">14.239</text></g>
+<rect x="311.79" y="288.67" width="55.94" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="321.24" y="299.99" style="font-family: Nimbus Sans L;font-size: 12.00px;font-weight: 0;" textLength="7.01px" lengthAdjust="spacingAndGlyphs">&gt;</text></g>
+<g><text x="331.02" y="299.99" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="36.71px" lengthAdjust="spacingAndGlyphs">14.239</text></g>
+<polyline points="170.57,369.83 92.49,665.70" style="stroke-width: 0.75;"/>
+<polyline points="170.57,369.83 248.66,665.70" style="stroke-width: 0.75;"/>
+<polygon points="131.12,369.83 131.91,365.53 132.70,363.79 133.49,362.46 134.28,361.37 135.07,360.42 135.86,359.57 136.65,358.81 137.44,358.11 138.22,357.47 139.01,356.87 139.80,356.32 140.59,355.79 141.38,355.31 142.17,354.84 142.96,354.41 143.75,354.00 144.54,353.61 145.32,353.24 146.11,352.89 146.90,352.55 146.90,352.55 150.85,351.13 154.79,350.04 158.74,349.23 162.68,348.67 166.63,348.34 170.57,348.23 174.52,348.34 178.46,348.67 182.41,349.23 186.35,350.04 190.30,351.13 194.24,352.55 194.24,352.55 195.03,352.89 195.82,353.24 196.61,353.61 197.40,354.00 198.18,354.41 198.97,354.84 199.76,355.31 200.55,355.79 201.34,356.32 202.13,356.87 202.92,357.47 203.71,358.11 204.50,358.81 205.29,359.57 206.07,360.42 206.86,361.37 207.65,362.46 208.44,363.79 209.23,365.53 210.02,369.83 210.02,369.83 209.23,374.13 208.44,375.88 207.65,377.20 206.86,378.30 206.07,379.25 205.29,380.09 204.50,380.86 203.71,381.55 202.92,382.20 202.13,382.79 201.34,383.35 200.55,383.87 199.76,384.36 198.97,384.82 198.18,385.26 197.40,385.67 196.61,386.06 195.82,386.43 195.03,386.78 194.24,387.11 194.24,387.11 190.30,388.54 186.35,389.63 182.41,390.44 178.46,391.00 174.52,391.33 170.57,391.43 166.63,391.33 162.68,391.00 158.74,390.44 154.79,389.63 150.85,388.54 146.90,387.11 146.90,387.11 146.11,386.78 145.32,386.43 144.54,386.06 143.75,385.67 142.96,385.26 142.17,384.82 141.38,384.36 140.59,383.87 139.80,383.35 139.01,382.79 138.22,382.20 137.44,381.55 136.65,380.86 135.86,380.09 135.07,379.25 134.28,378.30 133.49,377.20 132.70,375.88 131.91,374.13 131.12,369.83" style="stroke-width: 0.75;fill: #FFFFFF;" />
+<g><text x="170.57" y="367.01" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="21.36px" lengthAdjust="spacingAndGlyphs">Age</text></g>
+<g><text x="170.57" y="381.41" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="50.38px" lengthAdjust="spacingAndGlyphs">p &lt; 0.001</text></g>
+<rect x="163.37" y="341.03" width="14.40" height="14.40" style="stroke-width: 0.75;fill: #FFFFFF;"/>
+<g><text x="170.57" y="352.61" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">3</text></g>
+<rect x="115.24" y="510.57" width="32.58" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="124.69" y="521.89" style="font-family: Nimbus Sans L;font-size: 12.00px;font-weight: 0;" textLength="7.01px" lengthAdjust="spacingAndGlyphs">≤</text></g>
+<g><text x="134.47" y="521.89" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="13.35px" lengthAdjust="spacingAndGlyphs">50</text></g>
+<rect x="193.32" y="510.57" width="32.58" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="202.77" y="521.89" style="font-family: Nimbus Sans L;font-size: 12.00px;font-weight: 0;" textLength="7.01px" lengthAdjust="spacingAndGlyphs">&gt;</text></g>
+<g><text x="212.56" y="521.89" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="13.35px" lengthAdjust="spacingAndGlyphs">50</text></g>
+<rect x="14.40" y="613.33" width="156.17" height="252.67" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="99.69" y="624.91" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="83.71px" lengthAdjust="spacingAndGlyphs">Node 4 (n = 23)</text></g>
+<polyline points="68.12,866.00 131.25,866.00" style="stroke-width: 0.75;"/>
+<line x1="68.12" y1="866.00" x2="68.12" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="83.90" y1="866.00" x2="83.90" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="99.69" y1="866.00" x2="99.69" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="115.47" y1="866.00" x2="115.47" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="131.25" y1="866.00" x2="131.25" y2="873.20" style="stroke-width: 0.75;"/>
+<g><text x="68.12" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugA</text></g>
+<g><text x="115.47" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugX</text></g>
+<polyline points="57.60,866.00 57.60,649.39" style="stroke-width: 0.75;"/>
+<line x1="57.60" y1="866.00" x2="50.40" y2="866.00" style="stroke-width: 0.75;"/>
+<line x1="57.60" y1="822.68" x2="50.40" y2="822.68" style="stroke-width: 0.75;"/>
+<line x1="57.60" y1="779.36" x2="50.40" y2="779.36" style="stroke-width: 0.75;"/>
+<line x1="57.60" y1="736.04" x2="50.40" y2="736.04" style="stroke-width: 0.75;"/>
+<line x1="57.60" y1="692.72" x2="50.40" y2="692.72" style="stroke-width: 0.75;"/>
+<line x1="57.60" y1="649.39" x2="50.40" y2="649.39" style="stroke-width: 0.75;"/>
+<g><text x="43.20" y="870.37" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">0</text></g>
+<g><text x="43.20" y="827.05" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.2</text></g>
+<g><text x="43.20" y="783.73" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.4</text></g>
+<g><text x="43.20" y="740.41" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.6</text></g>
+<g><text x="43.20" y="697.09" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.8</text></g>
+<g><text x="43.20" y="653.77" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">1</text></g>
+<rect x="57.60" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c1)">
+<rect x="62.86" y="649.39" width="10.52" height="216.61" style="stroke-width: 0.75;fill: #4D4D4D;"/>
+<rect x="78.64" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #888888;"/>
+<rect x="94.42" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #AEAEAE;"/>
+<rect x="110.21" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #CCCCCC;"/>
+<rect x="125.99" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #E6E6E6;"/>
+<rect x="57.60" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c2)">
+<rect x="170.57" y="613.33" width="156.17" height="252.67" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="255.86" y="624.91" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="83.71px" lengthAdjust="spacingAndGlyphs">Node 5 (n = 16)</text></g>
+<polyline points="224.29,866.00 287.42,866.00" style="stroke-width: 0.75;"/>
+<line x1="224.29" y1="866.00" x2="224.29" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="240.07" y1="866.00" x2="240.07" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="255.86" y1="866.00" x2="255.86" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="271.64" y1="866.00" x2="271.64" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="287.42" y1="866.00" x2="287.42" y2="873.20" style="stroke-width: 0.75;"/>
+<g><text x="224.29" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugA</text></g>
+<g><text x="271.64" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugX</text></g>
+<polyline points="213.77,866.00 213.77,649.39" style="stroke-width: 0.75;"/>
+<line x1="213.77" y1="866.00" x2="206.57" y2="866.00" style="stroke-width: 0.75;"/>
+<line x1="213.77" y1="822.68" x2="206.57" y2="822.68" style="stroke-width: 0.75;"/>
+<line x1="213.77" y1="779.36" x2="206.57" y2="779.36" style="stroke-width: 0.75;"/>
+<line x1="213.77" y1="736.04" x2="206.57" y2="736.04" style="stroke-width: 0.75;"/>
+<line x1="213.77" y1="692.72" x2="206.57" y2="692.72" style="stroke-width: 0.75;"/>
+<line x1="213.77" y1="649.39" x2="206.57" y2="649.39" style="stroke-width: 0.75;"/>
+<g><text x="199.37" y="870.37" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">0</text></g>
+<g><text x="199.37" y="827.05" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.2</text></g>
+<g><text x="199.37" y="783.73" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.4</text></g>
+<g><text x="199.37" y="740.41" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.6</text></g>
+<g><text x="199.37" y="697.09" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.8</text></g>
+<g><text x="199.37" y="653.77" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">1</text></g>
+<rect x="213.77" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c3)">
+<rect x="219.03" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #4D4D4D;"/>
+<rect x="234.81" y="649.39" width="10.52" height="216.61" style="stroke-width: 0.75;fill: #888888;"/>
+<rect x="250.60" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #AEAEAE;"/>
+<rect x="266.38" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #CCCCCC;"/>
+<rect x="282.16" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #E6E6E6;"/>
+<rect x="213.77" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c4)">
+<rect x="326.74" y="613.33" width="156.17" height="252.67" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="412.03" y="624.91" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="83.71px" lengthAdjust="spacingAndGlyphs">Node 6 (n = 38)</text></g>
+<polyline points="380.46,866.00 443.59,866.00" style="stroke-width: 0.75;"/>
+<line x1="380.46" y1="866.00" x2="380.46" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="396.25" y1="866.00" x2="396.25" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="412.03" y1="866.00" x2="412.03" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="427.81" y1="866.00" x2="427.81" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="443.59" y1="866.00" x2="443.59" y2="873.20" style="stroke-width: 0.75;"/>
+<g><text x="380.46" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugA</text></g>
+<g><text x="427.81" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugX</text></g>
+<polyline points="369.94,866.00 369.94,649.39" style="stroke-width: 0.75;"/>
+<line x1="369.94" y1="866.00" x2="362.74" y2="866.00" style="stroke-width: 0.75;"/>
+<line x1="369.94" y1="822.68" x2="362.74" y2="822.68" style="stroke-width: 0.75;"/>
+<line x1="369.94" y1="779.36" x2="362.74" y2="779.36" style="stroke-width: 0.75;"/>
+<line x1="369.94" y1="736.04" x2="362.74" y2="736.04" style="stroke-width: 0.75;"/>
+<line x1="369.94" y1="692.72" x2="362.74" y2="692.72" style="stroke-width: 0.75;"/>
+<line x1="369.94" y1="649.39" x2="362.74" y2="649.39" style="stroke-width: 0.75;"/>
+<g><text x="355.54" y="870.37" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">0</text></g>
+<g><text x="355.54" y="827.05" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.2</text></g>
+<g><text x="355.54" y="783.73" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.4</text></g>
+<g><text x="355.54" y="740.41" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.6</text></g>
+<g><text x="355.54" y="697.09" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.8</text></g>
+<g><text x="355.54" y="653.77" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">1</text></g>
+<rect x="369.94" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c5)">
+<rect x="375.20" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #4D4D4D;"/>
+<rect x="390.99" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #888888;"/>
+<rect x="406.77" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #AEAEAE;"/>
+<rect x="422.55" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #CCCCCC;"/>
+<rect x="438.33" y="649.39" width="10.52" height="216.61" style="stroke-width: 0.75;fill: #E6E6E6;"/>
+<rect x="369.94" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c6)">
+<polyline points="951.43,221.90 795.26,369.83" style="stroke-width: 0.75;"/>
+<polyline points="951.43,221.90 1029.51,665.70" style="stroke-width: 0.75;"/>
+<polygon points="911.98,221.90 912.77,217.60 913.56,215.85 914.35,214.53 915.14,213.43 915.93,212.48 916.71,211.64 917.50,210.88 918.29,210.18 919.08,209.54 919.87,208.94 920.66,208.38 921.45,207.86 922.24,207.37 923.03,206.91 923.82,206.47 924.60,206.06 925.39,205.67 926.18,205.30 926.97,204.95 927.76,204.62 927.76,204.62 931.70,203.19 935.65,202.10 939.59,201.29 943.54,200.74 947.48,200.41 951.43,200.30 955.37,200.41 959.32,200.74 963.26,201.29 967.21,202.10 971.15,203.19 975.10,204.62 975.10,204.62 975.89,204.95 976.68,205.30 977.46,205.67 978.25,206.06 979.04,206.47 979.83,206.91 980.62,207.37 981.41,207.86 982.20,208.38 982.99,208.94 983.78,209.54 984.56,210.18 985.35,210.88 986.14,211.64 986.93,212.48 987.72,213.43 988.51,214.53 989.30,215.85 990.09,217.60 990.88,221.90 990.88,221.90 990.09,226.20 989.30,227.95 988.51,229.27 987.72,230.37 986.93,231.32 986.14,232.16 985.35,232.92 984.56,233.62 983.78,234.26 982.99,234.86 982.20,235.42 981.41,235.94 980.62,236.43 979.83,236.89 979.04,237.33 978.25,237.74 977.46,238.13 976.68,238.50 975.89,238.85 975.10,239.18 975.10,239.18 971.15,240.61 967.21,241.70 963.26,242.51 959.32,243.06 955.37,243.39 951.43,243.50 947.48,243.39 943.54,243.06 939.59,242.51 935.65,241.70 931.70,240.61 927.76,239.18 927.76,239.18 926.97,238.85 926.18,238.50 925.39,238.13 924.60,237.74 923.82,237.33 923.03,236.89 922.24,236.43 921.45,235.94 920.66,235.42 919.87,234.86 919.08,234.26 918.29,233.62 917.50,232.92 916.71,232.16 915.93,231.32 915.14,230.37 914.35,229.27 913.56,227.95 912.77,226.20 911.98,221.90" style="stroke-width: 0.75;fill: #FFFFFF;" />
+<g><text x="951.43" y="219.07" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="46.70px" lengthAdjust="spacingAndGlyphs">Na_to_K</text></g>
+<g><text x="951.43" y="233.47" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="50.38px" lengthAdjust="spacingAndGlyphs">p &lt; 0.001</text></g>
+<rect x="944.23" y="193.10" width="14.40" height="14.40" style="stroke-width: 0.75;fill: #FFFFFF;"/>
+<g><text x="951.43" y="204.67" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">7</text></g>
+<rect x="845.37" y="288.67" width="55.94" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="854.82" y="299.99" style="font-family: Nimbus Sans L;font-size: 12.00px;font-weight: 0;" textLength="7.01px" lengthAdjust="spacingAndGlyphs">≤</text></g>
+<g><text x="864.61" y="299.99" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="36.71px" lengthAdjust="spacingAndGlyphs">14.642</text></g>
+<rect x="936.47" y="288.67" width="55.94" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="945.92" y="299.99" style="font-family: Nimbus Sans L;font-size: 12.00px;font-weight: 0;" textLength="7.01px" lengthAdjust="spacingAndGlyphs">&gt;</text></g>
+<g><text x="955.71" y="299.99" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="36.71px" lengthAdjust="spacingAndGlyphs">14.642</text></g>
+<polyline points="795.26,369.83 639.09,517.77" style="stroke-width: 0.75;"/>
+<polyline points="795.26,369.83 873.34,665.70" style="stroke-width: 0.75;"/>
+<polygon points="755.81,369.83 756.60,365.53 757.39,363.79 758.18,362.46 758.97,361.37 759.75,360.42 760.54,359.57 761.33,358.81 762.12,358.11 762.91,357.47 763.70,356.87 764.49,356.32 765.28,355.79 766.07,355.31 766.85,354.84 767.64,354.41 768.43,354.00 769.22,353.61 770.01,353.24 770.80,352.89 771.59,352.55 771.59,352.55 775.53,351.13 779.48,350.04 783.42,349.23 787.37,348.67 791.31,348.34 795.26,348.23 799.20,348.34 803.15,348.67 807.09,349.23 811.04,350.04 814.98,351.13 818.93,352.55 818.93,352.55 819.71,352.89 820.50,353.24 821.29,353.61 822.08,354.00 822.87,354.41 823.66,354.84 824.45,355.31 825.24,355.79 826.03,356.32 826.82,356.87 827.60,357.47 828.39,358.11 829.18,358.81 829.97,359.57 830.76,360.42 831.55,361.37 832.34,362.46 833.13,363.79 833.92,365.53 834.70,369.83 834.70,369.83 833.92,374.13 833.13,375.88 832.34,377.20 831.55,378.30 830.76,379.25 829.97,380.09 829.18,380.86 828.39,381.55 827.60,382.20 826.82,382.79 826.03,383.35 825.24,383.87 824.45,384.36 823.66,384.82 822.87,385.26 822.08,385.67 821.29,386.06 820.50,386.43 819.71,386.78 818.93,387.11 818.93,387.11 814.98,388.54 811.04,389.63 807.09,390.44 803.15,391.00 799.20,391.33 795.26,391.43 791.31,391.33 787.37,391.00 783.42,390.44 779.48,389.63 775.53,388.54 771.59,387.11 771.59,387.11 770.80,386.78 770.01,386.43 769.22,386.06 768.43,385.67 767.64,385.26 766.85,384.82 766.07,384.36 765.28,383.87 764.49,383.35 763.70,382.79 762.91,382.20 762.12,381.55 761.33,380.86 760.54,380.09 759.75,379.25 758.97,378.30 758.18,377.20 757.39,375.88 756.60,374.13 755.81,369.83" style="stroke-width: 0.75;fill: #FFFFFF;" />
+<g><text x="795.26" y="367.01" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.01px" lengthAdjust="spacingAndGlyphs">BP</text></g>
+<g><text x="795.26" y="381.41" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="50.38px" lengthAdjust="spacingAndGlyphs">p &lt; 0.001</text></g>
+<rect x="788.06" y="341.03" width="14.40" height="14.40" style="stroke-width: 0.75;fill: #FFFFFF;"/>
+<g><text x="795.26" y="352.61" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">8</text></g>
+<rect x="703.50" y="436.60" width="27.34" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="717.17" y="448.17" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="27.34px" lengthAdjust="spacingAndGlyphs">LOW</text></g>
+<rect x="789.11" y="436.60" width="51.34" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="814.78" y="448.17" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="51.34px" lengthAdjust="spacingAndGlyphs">NORMAL</text></g>
+<polyline points="639.09,517.77 561.00,665.70" style="stroke-width: 0.75;"/>
+<polyline points="639.09,517.77 717.17,665.70" style="stroke-width: 0.75;"/>
+<polygon points="599.64,517.77 600.43,513.47 601.22,511.72 602.00,510.40 602.79,509.30 603.58,508.35 604.37,507.51 605.16,506.74 605.95,506.05 606.74,505.40 607.53,504.81 608.32,504.25 609.11,503.73 609.89,503.24 610.68,502.78 611.47,502.34 612.26,501.93 613.05,501.54 613.84,501.17 614.63,500.82 615.42,500.49 615.42,500.49 619.36,499.06 623.31,497.97 627.25,497.16 631.20,496.60 635.14,496.27 639.09,496.17 643.03,496.27 646.98,496.60 650.92,497.16 654.86,497.97 658.81,499.06 662.75,500.49 662.75,500.49 663.54,500.82 664.33,501.17 665.12,501.54 665.91,501.93 666.70,502.34 667.49,502.78 668.28,503.24 669.07,503.73 669.85,504.25 670.64,504.81 671.43,505.40 672.22,506.05 673.01,506.74 673.80,507.51 674.59,508.35 675.38,509.30 676.17,510.40 676.96,511.72 677.74,513.47 678.53,517.77 678.53,517.77 677.74,522.07 676.96,523.81 676.17,525.14 675.38,526.23 674.59,527.18 673.80,528.03 673.01,528.79 672.22,529.49 671.43,530.13 670.64,530.73 669.85,531.28 669.07,531.81 668.28,532.29 667.49,532.76 666.70,533.19 665.91,533.60 665.12,533.99 664.33,534.36 663.54,534.71 662.75,535.05 662.75,535.05 658.81,536.47 654.86,537.56 650.92,538.37 646.98,538.93 643.03,539.26 639.09,539.37 635.14,539.26 631.20,538.93 627.25,538.37 623.31,537.56 619.36,536.47 615.42,535.05 615.42,535.05 614.63,534.71 613.84,534.36 613.05,533.99 612.26,533.60 611.47,533.19 610.68,532.76 609.89,532.29 609.11,531.81 608.32,531.28 607.53,530.73 606.74,530.13 605.95,529.49 605.16,528.79 604.37,528.03 603.58,527.18 602.79,526.23 602.00,525.14 601.22,523.81 600.43,522.07 599.64,517.77" style="stroke-width: 0.75;fill: #FFFFFF;" />
+<g><text x="639.09" y="514.94" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="60.69px" lengthAdjust="spacingAndGlyphs">Cholesterol</text></g>
+<g><text x="639.09" y="529.34" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="50.38px" lengthAdjust="spacingAndGlyphs">p &lt; 0.001</text></g>
+<rect x="631.89" y="488.97" width="14.40" height="14.40" style="stroke-width: 0.75;fill: #FFFFFF;"/>
+<g><text x="639.09" y="500.54" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">9</text></g>
+<rect x="585.05" y="584.53" width="30.00" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="600.04" y="596.11" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="30.00px" lengthAdjust="spacingAndGlyphs">HIGH</text></g>
+<rect x="652.46" y="584.53" width="51.34" height="14.40" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="678.13" y="596.11" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="51.34px" lengthAdjust="spacingAndGlyphs">NORMAL</text></g>
+<rect x="482.91" y="613.33" width="156.17" height="252.67" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="568.20" y="624.91" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="90.39px" lengthAdjust="spacingAndGlyphs">Node 10 (n = 16)</text></g>
+<polyline points="536.64,866.00 599.76,866.00" style="stroke-width: 0.75;"/>
+<line x1="536.64" y1="866.00" x2="536.64" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="552.42" y1="866.00" x2="552.42" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="568.20" y1="866.00" x2="568.20" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="583.98" y1="866.00" x2="583.98" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="599.76" y1="866.00" x2="599.76" y2="873.20" style="stroke-width: 0.75;"/>
+<g><text x="536.64" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugA</text></g>
+<g><text x="583.98" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugX</text></g>
+<polyline points="526.11,866.00 526.11,649.39" style="stroke-width: 0.75;"/>
+<line x1="526.11" y1="866.00" x2="518.91" y2="866.00" style="stroke-width: 0.75;"/>
+<line x1="526.11" y1="822.68" x2="518.91" y2="822.68" style="stroke-width: 0.75;"/>
+<line x1="526.11" y1="779.36" x2="518.91" y2="779.36" style="stroke-width: 0.75;"/>
+<line x1="526.11" y1="736.04" x2="518.91" y2="736.04" style="stroke-width: 0.75;"/>
+<line x1="526.11" y1="692.72" x2="518.91" y2="692.72" style="stroke-width: 0.75;"/>
+<line x1="526.11" y1="649.39" x2="518.91" y2="649.39" style="stroke-width: 0.75;"/>
+<g><text x="511.71" y="870.37" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">0</text></g>
+<g><text x="511.71" y="827.05" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.2</text></g>
+<g><text x="511.71" y="783.73" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.4</text></g>
+<g><text x="511.71" y="740.41" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.6</text></g>
+<g><text x="511.71" y="697.09" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.8</text></g>
+<g><text x="511.71" y="653.77" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">1</text></g>
+<rect x="526.11" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c7)">
+<rect x="531.38" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #4D4D4D;"/>
+<rect x="547.16" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #888888;"/>
+<rect x="562.94" y="649.39" width="10.52" height="216.61" style="stroke-width: 0.75;fill: #AEAEAE;"/>
+<rect x="578.72" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #CCCCCC;"/>
+<rect x="594.50" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #E6E6E6;"/>
+<rect x="526.11" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c8)">
+<rect x="639.09" y="613.33" width="156.17" height="252.67" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="724.37" y="624.91" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="90.39px" lengthAdjust="spacingAndGlyphs">Node 11 (n = 18)</text></g>
+<polyline points="692.81,866.00 755.94,866.00" style="stroke-width: 0.75;"/>
+<line x1="692.81" y1="866.00" x2="692.81" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="708.59" y1="866.00" x2="708.59" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="724.37" y1="866.00" x2="724.37" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="740.15" y1="866.00" x2="740.15" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="755.94" y1="866.00" x2="755.94" y2="873.20" style="stroke-width: 0.75;"/>
+<g><text x="692.81" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugA</text></g>
+<g><text x="740.15" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugX</text></g>
+<polyline points="682.29,866.00 682.29,649.39" style="stroke-width: 0.75;"/>
+<line x1="682.29" y1="866.00" x2="675.09" y2="866.00" style="stroke-width: 0.75;"/>
+<line x1="682.29" y1="822.68" x2="675.09" y2="822.68" style="stroke-width: 0.75;"/>
+<line x1="682.29" y1="779.36" x2="675.09" y2="779.36" style="stroke-width: 0.75;"/>
+<line x1="682.29" y1="736.04" x2="675.09" y2="736.04" style="stroke-width: 0.75;"/>
+<line x1="682.29" y1="692.72" x2="675.09" y2="692.72" style="stroke-width: 0.75;"/>
+<line x1="682.29" y1="649.39" x2="675.09" y2="649.39" style="stroke-width: 0.75;"/>
+<g><text x="667.89" y="870.37" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">0</text></g>
+<g><text x="667.89" y="827.05" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.2</text></g>
+<g><text x="667.89" y="783.73" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.4</text></g>
+<g><text x="667.89" y="740.41" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.6</text></g>
+<g><text x="667.89" y="697.09" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.8</text></g>
+<g><text x="667.89" y="653.77" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">1</text></g>
+<rect x="682.29" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c9)">
+<rect x="687.55" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #4D4D4D;"/>
+<rect x="703.33" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #888888;"/>
+<rect x="719.11" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #AEAEAE;"/>
+<rect x="734.89" y="649.39" width="10.52" height="216.61" style="stroke-width: 0.75;fill: #CCCCCC;"/>
+<rect x="750.67" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #E6E6E6;"/>
+<rect x="682.29" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c10)">
+<rect x="795.26" y="613.33" width="156.17" height="252.67" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="880.54" y="624.91" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="90.39px" lengthAdjust="spacingAndGlyphs">Node 12 (n = 36)</text></g>
+<polyline points="848.98,866.00 912.11,866.00" style="stroke-width: 0.75;"/>
+<line x1="848.98" y1="866.00" x2="848.98" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="864.76" y1="866.00" x2="864.76" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="880.54" y1="866.00" x2="880.54" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="896.32" y1="866.00" x2="896.32" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="912.11" y1="866.00" x2="912.11" y2="873.20" style="stroke-width: 0.75;"/>
+<g><text x="848.98" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugA</text></g>
+<g><text x="896.32" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugX</text></g>
+<polyline points="838.46,866.00 838.46,649.39" style="stroke-width: 0.75;"/>
+<line x1="838.46" y1="866.00" x2="831.26" y2="866.00" style="stroke-width: 0.75;"/>
+<line x1="838.46" y1="822.68" x2="831.26" y2="822.68" style="stroke-width: 0.75;"/>
+<line x1="838.46" y1="779.36" x2="831.26" y2="779.36" style="stroke-width: 0.75;"/>
+<line x1="838.46" y1="736.04" x2="831.26" y2="736.04" style="stroke-width: 0.75;"/>
+<line x1="838.46" y1="692.72" x2="831.26" y2="692.72" style="stroke-width: 0.75;"/>
+<line x1="838.46" y1="649.39" x2="831.26" y2="649.39" style="stroke-width: 0.75;"/>
+<g><text x="824.06" y="870.37" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">0</text></g>
+<g><text x="824.06" y="827.05" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.2</text></g>
+<g><text x="824.06" y="783.73" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.4</text></g>
+<g><text x="824.06" y="740.41" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.6</text></g>
+<g><text x="824.06" y="697.09" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.8</text></g>
+<g><text x="824.06" y="653.77" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">1</text></g>
+<rect x="838.46" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c11)">
+<rect x="843.72" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #4D4D4D;"/>
+<rect x="859.50" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #888888;"/>
+<rect x="875.28" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #AEAEAE;"/>
+<rect x="891.06" y="649.39" width="10.52" height="216.61" style="stroke-width: 0.75;fill: #CCCCCC;"/>
+<rect x="906.85" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #E6E6E6;"/>
+<rect x="838.46" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c12)">
+<rect x="951.43" y="613.33" width="156.17" height="252.67" style="stroke-width: 0.75;stroke: none;fill: #FFFFFF;"/>
+<g><text x="1036.71" y="624.91" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="90.39px" lengthAdjust="spacingAndGlyphs">Node 13 (n = 53)</text></g>
+<polyline points="1005.15,866.00 1068.28,866.00" style="stroke-width: 0.75;"/>
+<line x1="1005.15" y1="866.00" x2="1005.15" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="1020.93" y1="866.00" x2="1020.93" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="1036.71" y1="866.00" x2="1036.71" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="1052.50" y1="866.00" x2="1052.50" y2="873.20" style="stroke-width: 0.75;"/>
+<line x1="1068.28" y1="866.00" x2="1068.28" y2="873.20" style="stroke-width: 0.75;"/>
+<g><text x="1005.15" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugA</text></g>
+<g><text x="1052.50" y="889.15" text-anchor="middle" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="32.03px" lengthAdjust="spacingAndGlyphs">drugX</text></g>
+<polyline points="994.63,866.00 994.63,649.39" style="stroke-width: 0.75;"/>
+<line x1="994.63" y1="866.00" x2="987.43" y2="866.00" style="stroke-width: 0.75;"/>
+<line x1="994.63" y1="822.68" x2="987.43" y2="822.68" style="stroke-width: 0.75;"/>
+<line x1="994.63" y1="779.36" x2="987.43" y2="779.36" style="stroke-width: 0.75;"/>
+<line x1="994.63" y1="736.04" x2="987.43" y2="736.04" style="stroke-width: 0.75;"/>
+<line x1="994.63" y1="692.72" x2="987.43" y2="692.72" style="stroke-width: 0.75;"/>
+<line x1="994.63" y1="649.39" x2="987.43" y2="649.39" style="stroke-width: 0.75;"/>
+<g><text x="980.23" y="870.37" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">0</text></g>
+<g><text x="980.23" y="827.05" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.2</text></g>
+<g><text x="980.23" y="783.73" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.4</text></g>
+<g><text x="980.23" y="740.41" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.6</text></g>
+<g><text x="980.23" y="697.09" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="16.68px" lengthAdjust="spacingAndGlyphs">0.8</text></g>
+<g><text x="980.23" y="653.77" text-anchor="end" style="font-family: TeX Gyre Heros;font-size: 12.00px;font-weight: 0;" textLength="6.67px" lengthAdjust="spacingAndGlyphs">1</text></g>
+<rect x="994.63" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g><g clip-path="url(#c13)">
+<rect x="999.89" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #4D4D4D;"/>
+<rect x="1015.67" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #888888;"/>
+<rect x="1031.45" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #AEAEAE;"/>
+<rect x="1047.24" y="866.00" width="10.52" height="0.00" style="stroke-width: 0.75;fill: #CCCCCC;"/>
+<rect x="1063.02" y="649.39" width="10.52" height="216.61" style="stroke-width: 0.75;fill: #E6E6E6;"/>
+<rect x="994.63" y="627.73" width="84.17" height="238.27" style="stroke-width: 0.75;"/>
+</g>
+</svg>

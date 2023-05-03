@@ -78,6 +78,6 @@ user_data_factor <- data.frame(
     stringsAsFactors = TRUE
 )
 predikce_uzivatel_c50 <- recomend(user_data_factor, model_c50, training_data_factor)
-View(predikce_uzivatel)
+View(predikce_uzivatel_c50)
 predikce_uzivatel_chaid <- recomend(user_data_factor, model_chaid, training_data_factor)
 View(data.frame(predikce_uzivatel_c50, predikce_uzivatel_chaid))
